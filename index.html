@@ -5,24 +5,26 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Yulee's Protfolio</title>
-        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
         
 
     <body>
         <header>
          <div class="inner-width">
-             <a href="#" class="logo"><img src="images/Logo1.png"></a>
-            
+             <div class="hover-animation">
+                 <img class="logo1" src="images/Logo1.png"
+                 onmouseover="changeImage(1,this)"
+                 onmouseout="changeImage(2,this)">
+                 <i class="menu-toggle-btn fas fa-bars"></i> 
+             </div>
              <nav class="navbar_menu">
                  <a href="#">About Me</a>
                  <a href="#">Work</a>
                  <a href="#">Contact</a>
              </nav>
-             <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-             </div>
+             
+             
          </div>
         </header> 
             <section class="heroImg">

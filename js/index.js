@@ -44,3 +44,18 @@ $(".workGrid3").mouseleave(function(){
     $(".workGrid3 img").css("width", "481px");
     $(".workGrid3 img").css("height", "611px");
 });
+
+function changeImage(x,image){
+    if(x==1) {
+        image.src= 'images/Logo2.png';
+    }
+    if(x == 2) {
+        image.src= 'images/Logo1.png';
+    }
+}
+
+$(".menu-toggle-btn").click(function(){
+    $(this).toggleClass("fa-times");
+    $(".navbar_menu").toggleClass("active");
+});
+

@@ -8,12 +8,13 @@ header{
 .inline-blcok {
     display: inline-block; 
 }
-.logo {
+
+.hover-animation img {
     display: inline-block;
-    margin-left: 10%;
-    margin-top: -20px;
+    margin: 20px 10%;
     float: left;
 }
+
 
 .navbar_menu {
     float: right;
@@ -24,8 +25,14 @@ header{
     margin-right: 10%;
 }
 
-.hamburger {
-    display: none;
+.menu-toggle-btn {
+    float: right;
+    color: white;
+    font-size: 40px;
+    height: 90px;
+    line-height: 100px !important;
+    margin-right: 100px;
+    display: none !important;
     cursor: pointer;
 } 
 .bar {
@@ -37,9 +44,7 @@ header{
     transition: all 0.3s ease-in-out;
     background: white;
     
-    
 }
-
     
 a {
     font-family: 'Notable', sans-serif;
@@ -49,6 +54,7 @@ a {
     text-decoration: none;
       
 }
+
 .heroImg {
     display: grid;
     grid-template-rows: 1fr 300px 100px ;
@@ -57,6 +63,7 @@ a {
     padding: 100px 10%;
     align-items: center;
     margin-bottom: 300px;
+    
 }
 .heroImg img {
     height:600px;
@@ -65,8 +72,6 @@ a {
     align-items: center;
     
 }
-
-
 .content {
     height: auto; 
     width: 1000px;
@@ -281,23 +286,22 @@ footer {
     .navbar_menu a{
         font-size: 40px;
     }
+    .navbar_menu {
+       
+    }
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-width:1660px) {
+    .navbar_menu a{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+   
+}
+@media only screen and (max-width: 1300px) {
     
-    .hamburger {
-        display: block;
+    .menu-toggle-btn {
+        display: block !important;
     }
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-
     .navbar_menu {
         position: fixed;
         width: 100%;
@@ -305,7 +309,7 @@ footer {
         top: 133px;
         background: #373738;
         right: -40px;
-        display: block;
+        display: none;
         padding: 20px 40px;
         box-sizing: border-box;
     }
@@ -313,7 +317,7 @@ footer {
         content: "";
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-bottom: 10px solid #CE5959;
+        border-bottom: 10px solid #373738;
         position: absolute;
         top: -10px;
         right: 12%;
@@ -324,10 +328,14 @@ footer {
         margin: 10px 0;
         display: block;
     }
-    .navbar_menu.active span:nth-child(2) {
+    .navbar_menu.active {
         display: block;
-        opacity: 0;
     }
+    .heroImg {
+        float: left;
+    }
+
+   
     .myWork {
         display: block;
         width: 100%;}
@@ -347,7 +355,7 @@ footer {
         height: auto;
     }  
     .mySkills {
-        display: block;
+        display: inline-block;
         width: 100%;
     }
     .mySkills h1 {
@@ -395,3 +403,5 @@ footer {
     }
 
 };
+
+
