@@ -63,12 +63,15 @@ a {
     padding: 100px 10%;
     align-items: center;
     margin-bottom: 300px;
+    margin-left: 600px;
     
 }
 .heroImg img {
     height:600px;
     width: 900px;
     margin-top: 10%;
+    
+    margin-right: auto;
     align-items: center;
     
 }
@@ -88,7 +91,7 @@ footer ul {
 }
 p {
     font-family: 'Alumni Sans', sans-serif;
-    font-size: 32pt;
+    font-size: 16pt;
     font-weight: 600;
 }
 body {
@@ -114,39 +117,40 @@ button {
 .myWork h1 {
     display: grid;
     font-family:'Notable', sans-serif;
-    font-size: 128pt;
+    font-size: 64pt;
     margin-top: 300px;
-    margin-left: 10%;
-    
-    text-align: center;
+    margin-left: 400px;
+    text-align: left;
     grid-column-start: 1;
-    grid-column-end: span 3;
+    grid-column-end: 2 span;
     align-items: center;
 }
 .mySkills h1 {
     display: grid;
     font-family:'Notable', sans-serif;
-    font-size: 128pt;
-    text-align: center;
+    font-size: 64pt;
+    text-align: left;
     grid-column-start: 1;
-    grid-column-end: span 3;
+    grid-column-end: 2 span;
     align-items: center;
     margin-top: 300px;
-    margin-left: 10%;
+    margin-left: 400px;
 }
 h4 {
     font-family: 'Notable', sans-serif;
-    font-size: 40pt;
+    font-size: 24pt;
     margin-left: 10%;
     text-align: center;
 }
 .flexContainer1 {
     display: inline-block;
-    border: 1px solid #f5f5f5;
-    width: 700px;
-    height: 950px;
-    padding: 50px;
-    margin: 20px;
+    border: 1px solid black;
+    width: 450px;
+    height: 697px;
+    padding: 5%;
+    margin-left: 400px;
+    margin-right: 25px;
+    margin-top: 41px;
     align-items: center;
     flex-direction: row;
     text-align: center;
@@ -156,11 +160,15 @@ h4 {
     
 .flexContainer2 {
     display: inline-block;
-    border: 1px solid #f5f5f5;
-    width: 700px;
-    height: 950px;
-    padding: 50px;
-    margin: 20px;
+    border: 1px solid black;
+    width: 450px;
+    height: 697px;
+    padding-bottom: 5%;
+    padding-top: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: -8%;
+    margin: 41px 150px;
     align-items: center;
     flex-direction: row;
     text-align: center;
@@ -168,11 +176,13 @@ h4 {
 }
 .flexContainer3 {
     display: inline-block;
-    border: 1px solid #f5f5f5;
-    width: 700px;
-    height: 950px;
-    padding: 50px;
-    margin: 20px;
+    border: 1px solid black;
+    width: 450px;
+    height: 697px;
+    padding: 5%;
+    
+    margin-right: 400px;
+    margin-top: 41px;
     align-items: center;
     flex-direction: row;
     text-align: center;
@@ -184,39 +194,40 @@ h4 {
     font-family: 'Alumni Sans', sans-serif;
     font-size: 24pt;
     font-weight: 600;
-    margin-left: 10%;
+    text-align: left;
+    
 }
 .flexContainer2 li {
     font-family: 'Alumni Sans', sans-serif;
     font-size: 24pt;
     font-weight: 600;
-    margin-left: 10%;
+    text-align: left;
 }
 .flexContainer3 li {
     font-family: 'Alumni Sans', sans-serif;
     font-size: 24pt;
     font-weight: 600;
-    margin-left: 10%;
+    text-align: left;
 }
 .flexContainer1 img {
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 200px;
     flex-direction: row;
     margin-left: 10%;
     margin-top: 10%;
     align-items: center;
 }    
 .flexContainer2 img {
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 200px;
     flex-direction: row;
     margin-left: 10%;
     margin-top: 10%;
     align-items: center;
 }
 .flexContainer3 img {
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 200px;
     flex-direction: row;
     margin-left: 10%;
     margin-top: 10%;
@@ -226,7 +237,9 @@ h4 {
 .mySkills { 
     display: grid;
     grid-template-rows: 600px 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: -300px;
+    
 }
 
 
@@ -235,42 +248,67 @@ h4 {
     grid-template-rows: 600px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 10%;
-    align-items: center;
+    
+    margin-top: -200px;
 }
 .workGrid1 {
     display: inline-block;
-    width: 500px;
-    height: 1150px;
-    border: 1px solid #f5f5f5;
+    width: 400px;
+    height: 700px;
+    border: 1px solid black;
     align-items: center;
     text-align: center;
     flex-direction: row;
     padding: 10%;
-    
+    margin-left: 400px;
+    grid-row-start: 2;
 }
+
 .workGrid2 {
     display: inline-block;
-    width: 500px;
-    height: 1150px;
-    border: 1px solid #f5f5f5;
+    width: 400px;
+    height: 700px;
+    border: 1px solid black;
     align-items: center;
     text-align: center;
     flex-direction: row;
     padding: 10%;
+    margin-left: 200px;
+    margin-right: 0px;
+    grid-row-start: 2;
     
     
 }
 .workGrid3 {
     display: inline-block;
-    width: 500px;
-    height: 1150px;
-    border: 1px solid #f5f5f5;
+    width: 400px;
+    height: 700px;
+    border: 1px solid black;
     align-items: center;
     text-align: center;
     flex-direction: row;
     padding: 10%;
-    
+    margin-right:400px;
+    grid-row-start: 2;
 }
+
+.workGrid1 img {
+   width: 300px;
+   height: 380px;
+
+}
+.workGrid2 img {
+    width: 300px;
+    height: 380px;
+ 
+ }
+ .workGrid3 img {
+    width: 300px;
+    height: 380px;
+ 
+ }
+
+
 
 .footerGrid {
     display: grid;
@@ -286,8 +324,42 @@ footer {
     .navbar_menu a{
         font-size: 40px;
     }
-    .navbar_menu {
-       
+    
+    .heroImg {
+        margin-left:400px;
+    }
+    .workGrid1 {
+        display: inline-block;
+        width: 300px;
+        height: 700px;
+        border: 1px solid black;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+        padding: 10%;
+        margin-left: 400px;
+}
+    .workGrid2 {
+        display: inline-block;
+        width: 300px;
+        height: 700px;
+        border: 1px solid black;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+        padding: 14%;
+        margin-left: 200px;
+}
+    .workGrid3 {
+       display: inline-block;
+       width: 300px;
+       height: 700px;
+       border: 1px solid black;
+       align-items: center;
+       text-align: center;
+       flex-direction: row;
+       padding: 7.9%;
+       margin-left: 200px;
     }
 }
 @media screen and (max-width:1660px) {
@@ -295,10 +367,13 @@ footer {
         font-size: 25px;
         margin-top: 20px;
     }
-   
+  
+    
 }
 @media only screen and (max-width: 1300px) {
-    
+    .heroImg {
+        margin-left: -50px;
+    }
     .menu-toggle-btn {
         display: block !important;
     }
@@ -332,34 +407,47 @@ footer {
         display: block;
     }
     .heroImg {
-        float: left;
+        width: 100%;
+        margin-left: 
+        
     }
 
    
     .myWork {
-        display: block;
-        width: 100%;}
+        display: inline-block;
+        width: 100%;
+    }
     .myWork h1 {
         font-size: 40pt;
+        margin-left:0;
     }
     .workGrid1 {
-        width: auto;
+        width: 80%;
         height: auto;
+        margin-left: 0%;
+        margin-bottom: 30px;
     }
     .workGrid2 {
-        width: auto;
+        width: 72%;
         height: auto;
+        margin-left: 0%;
+        margin-bottom: 30px;
     }    
     .workGrid3 {
-        width: auto;
+        width: 84%;
         height: auto;
+        margin-left: 0%;
+        margin-bottom: 30px;
     }  
     .mySkills {
         display: inline-block;
         width: 100%;
+        margin-top: -30%;
     }
     .mySkills h1 {
         font-size: 40pt;
+        margin-left: 0%;
+        margin-bottom: 0;
     }
     .flexContainer1 li {
         font-size: 20pt;
@@ -371,17 +459,18 @@ footer {
         font-size: 20pt;
     }
     .flexContainer1 {
-        width: auto;
+        width: 90%;
         height: auto;
         margin-left: 0;
     }
     .flexContainer2 {
-        width: 74%;
+        width: 90%;
         height: auto;
         margin-left: 0;
+        margin-bottom: 0px;
     }
     .flexContainer3 {
-        width: auto;
+        width: 90%;
         height: auto;
         margin-left: 0;
     }
@@ -403,5 +492,11 @@ footer {
     }
 
 };
+
+@media only screen and (max-width:860px;) {
+    .mySkills {
+        margin-top: -100%;
+    }
+}
 
 

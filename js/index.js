@@ -16,33 +16,33 @@ $("a").mouseleave(function(){
 
 $(".workGrid1").hover(function(){
     $(this).css("background-color", "#CE5959");
-    $(".workGrid1 img").css("width", "500px");
-    $(".workGrid1 img").css("height", "700px");
+    $(".workGrid1 img").css("width", "320px");
+    $(".workGrid1 img").css("height", "400px");
 });
 $(".workGrid1").mouseleave(function(){
     $(this).css("background-color", "#E0E0E0");
-    $(".workGrid1 img").css("width", "481px");
-    $(".workGrid1 img").css("height", "611px");
+    $(".workGrid1 img").css("width", "300px");
+    $(".workGrid1 img").css("height", "380px");
 });
 $(".workGrid2").hover(function(){
     $(this).css("background-color", "#CE5959");
-    $(".workGrid2 img").css("width", "500px");
-    $(".workGrid2 img").css("height", "700px");
+    $(".workGrid2 img").css("width", "320px");
+    $(".workGrid2 img").css("height", "400px");
 });
 $(".workGrid2").mouseleave(function(){
     $(this).css("background-color", "#E0E0E0");
-    $(".workGrid2 img").css("width", "481px");
-    $(".workGrid2 img").css("height", "611px");
+    $(".workGrid2 img").css("width", "300px");
+    $(".workGrid2 img").css("height", "380px");
 });
 $(".workGrid3").hover(function(){
     $(this).css("background-color", "#CE5959");
-    $(".workGrid3 img").css("width", "500px");
-    $(".workGrid3 img").css("height", "700px");
+    $(".workGrid3 img").css("width", "320px");
+    $(".workGrid3 img").css("height", "400px");
 });
 $(".workGrid3").mouseleave(function(){
     $(this).css("background-color", "#E0E0E0");
-    $(".workGrid3 img").css("width", "481px");
-    $(".workGrid3 img").css("height", "611px");
+    $(".workGrid3 img").css("width", "300px");
+    $(".workGrid3 img").css("height", "380px");
 });
 function changeImage(x,image){
     if(x == 1) {
